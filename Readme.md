@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Maxim Bakulin](https://up.htmlacademy.ru/htmlcss/37/user/2267887).
-* Наставник: `Неизвестно`.
+* Наставник: Артем Картавый https://htmlacademy.ru/profile/artem_k
 
 ---
 
