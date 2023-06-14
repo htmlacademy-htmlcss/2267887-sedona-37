@@ -8,13 +8,13 @@
 <body>
   <header class="page-header">
     <a class="logo-header" href="index.html">
-      <img src="" alt="Логотип сайта Седоны.">
+      <img src="images/header/logo.svg" width="140" height="70" alt="Логотип сайта Седоны.">
     </a>
     <nav class="navigation">
 
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link" href="#">Главная</a>
+          <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">О Седоне</a>
@@ -41,7 +41,7 @@
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">
-            <span class="visually-hidden">
+            <span class="navigation-button">
               Хочу сюда!
             </span>
           </a>
@@ -50,26 +50,26 @@
 
     </nav>
   </header>
-  <main class="main-inner">
-    <header class="inner-header">
-      <h1 class="inner-header-title">Гостиницы Седоны</h1>
-      <ul class="breadcrumbs">
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" href="index.html">
-            <span class="visually-hidden">Главная страница</span>
-            <!-- Добавить декоративное изображение домика-->
-          </a>
-        </li>
-        <li class="breadcrumbs-item">
-          <a class="beadcrumbs-link">
-            <span class="breadcrumbs-description">Гостиницы</span>
-          </a>
-        </li>
-      </ul>
-    </header>
 
+  <main class="main-inner">
     <section class="hotel-filters">
       <h2 class="visually-hidden">Фильтер каталога гостиниц</h2>
+      <header class="inner-header">
+        <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">
+              <span class="visually-hidden">Главная страница</span>
+            </a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="beadcrumbs-link">
+              <span class="breadcrumbs-description">Гостиницы</span>
+            </a>
+          </li>
+        </ul>
+      </header>
+
       <form class="catalog-filters" action="https://echo.htmlacademy.ru/" method="get">
 
         <fieldset class="catalog-filter-group">
@@ -125,7 +125,7 @@
           </ul>
         </fieldset>
         <fieldset>
-          <legend class="price">Стоимость, Р</legend>
+          <legend class="filter-group-title">Стоимость, Р</legend>
           <input class="price-min" type="number" placeholder="0" />
           <input class="price-max" type="number" placeholder="9000" />
           <input class="range" type="range" name="price-range" />
@@ -137,7 +137,7 @@
     </section>
 
     <section class="catalog-hotel">
-      <h2 class="catalog-title">Каталог гостиниц</h2>
+      <h2 class="visually-hidden">Каталог гостиниц</h2>
 
       <div class="catalog-header">
        <h2 class="catalog-header-title">НАЙДЕНО ГОСТИНИЦ: 38</h2>
@@ -196,7 +196,7 @@
           <b class="hotel-card-price">От 5000 Р</b>
 
           <a class="hotel-card-more" href="#">Подробнее</a>
-          <button class="hotel-favorites-button" type="submit">В избранном</button>
+          <button class="hotel-favorites-button favorites" type="submit">В избранном</button>
           <p class="stars four-stars">
             <span class="visually-hidden">Четыре звезды</span>
             <span class="rating">Рейтинг: 9.2</span>
@@ -239,7 +239,7 @@
         </li>
       </ul>
       <ul class="pagination">
-        <li class="pagination-item">
+        <li class="pagination-item-first">
           <a href="#" class="pagination-link pagination-current">1</a>
         </li>
         <li class="pagination-item">
@@ -251,7 +251,7 @@
         <li class="pagination-item">
           <a href="#" class="pagination-link">4</a>
         </li>
-        <li class="pagination-item">
+        <li class="pagination-item-point">
           <a href="#" class="pagination-link">...</a>
         </li>
         <li class="pagination-item">

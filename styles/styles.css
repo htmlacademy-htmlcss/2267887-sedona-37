@@ -154,7 +154,7 @@ body {
   color: #000000;
 }
 
-/* Делаю кнопки*/
+/* Кнопки главной страницы */
 
 .navigation-button {
   background-color: #756157;
@@ -187,3 +187,149 @@ body {
 }
 
 /* Стили для каталога */
+
+/* ФИЛЬТЕР КАТАЛОГА*/
+
+.hotel-filters {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  background-color: #82B3D3;
+  background-image: url("../images/catalog/filter-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.filter-group-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+/* Кнопки фильтра */
+
+.filter-button-send {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+
+.filter-button-reset {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* КАТАЛОГ */
+
+.catalog-header-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.hotel-card-description {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.hotel-card-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.option-hotel-card {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* Кнопки каталога */
+
+.hotel-favorites-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.hotel-favorites-button.favorites {
+  background-color: #7DB54F;
+}
+
+.hotel-card-more {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #756157;
+  text-decoration: none;
+}
+
+.rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #F2F2F2;
+}
+
+/* Пагинация */
+
+.pagination-item-first a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+  color: #000000;
+  text-decoration: none;
+}
+
+.pagination-item a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  background-color: #82B3D3;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pagination-item-point a {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+/* Как сделать чтобы на станице каталога не отражался фон? Отдельно задавать стили для секции подписки в каталоге? */
