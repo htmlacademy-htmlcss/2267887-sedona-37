@@ -121,13 +121,11 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
+/* Секция подписки каталога */
+
 .subscription {
   text-align: center;
-  color: #ffffff;
-  background-color: #0091ea;
-  background-image: url("../images/main/subscribe.jpg");
-  width: 1200px;
-  height: 415px;
+  background-color: #ffffff;
 }
 
 .subscription-title {
@@ -135,12 +133,27 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .subscription-description {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+}
+
+/* Секция подписки на главной странице */
+
+.subscription-custom {
+  color: #ffffff;
+  background-image: url("../images/main/subscribe.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 415px;
+}
+
+.custom-title {
+  color: #ffffff;
 }
 
 /* FOOTER */
@@ -220,6 +233,13 @@ body {
   text-transform: capitalize;
 }
 
+.price-filter {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
 /* Кнопки фильтра */
 
 .filter-button-send {
@@ -247,6 +267,12 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.select-option {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .hotel-card-description {
@@ -331,5 +357,3 @@ body {
   color: #000000;
   background-color: #F2F2F2;
 }
-
-/* Как сделать чтобы на станице каталога не отражался фон в секции подписки? Отдельно задавать стили для секции подписки в каталоге? */
