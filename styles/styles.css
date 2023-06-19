@@ -413,6 +413,7 @@ body {
 .service-list {
   display: flex;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .service-item {
