@@ -16,12 +16,33 @@
 
 /* Стили для главной страницы */
 
+html {
+  height: 100%;
+}
+
+.page-container {
+  width: 1200px;
+  min-height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
 body {
   margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  background-color: #F2F2F2;
+  height: 100%;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 /* HEADER */
@@ -356,4 +377,46 @@ body {
   text-align: center;
   color: #000000;
   background-color: #F2F2F2;
+}
+
+/* Cетки страниц на флексах */
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Преимущества */
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.advantages-item-secondary {
+  width: 400px;
+  min-height: 385px;
+}
+
+.advantages-item {
+  width: 400px;
+  min-height: 385px;
+}
+
+.advantages-image img{
+  display: block;
+}
+
+/* Раздел сервис */
+
+.service-list {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  width: 400px;
+  min-height: 385px;
 }
